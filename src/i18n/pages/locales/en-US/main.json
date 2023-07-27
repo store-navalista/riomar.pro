@@ -1,0 +1,25 @@
+{
+   "title": "Riomar",
+   "services": [
+      {
+         "title": "Cargo transportation",
+         "description": "Sea-river transportation of the cargoes: Riomar performs transportation services for crude oil and wide range of chemical/oil products. IMO classed 3 – 6 cargoes are accepted for carriage include but not limited to: crude oil, petroleum, diesel oil, sunflower seed oil, etc. Trading areas are Caspian Sea, Mediterranean Sea, Don and Volga rivers.",
+         "href": "#page-0"
+      },
+      {
+         "title": "Technical management",
+         "description": "Technical management: Company provides technical management for tanker fleet: ship supply, repairs, technical supervision, scheduled and unscheduled surveys, etc. Strong connections with RMRS and Russian Federal Agency of Sea and River Transport allow us to minimize owners’ costs and vessels off time.",
+         "href": "#page-1"
+      },
+      {
+         "title": "Commercial management",
+         "description": "Having a direct contact with all primary trading companies of Caspian and Mediterranean regions, Riomar is able to provide a variety of cargoes for vessels under company’s commercial management to maximize their financial performance.",
+         "href": "#page-2"
+      },
+      {
+         "title": "Crewing management",
+         "description": "Company performs crew selection for vessels of any type, flag, size, etc. Our seafarers’ database is being updated and expanded on a constant basis, while ship manning and social welfare of crew are always processed in strict accordance with ITF requirements.",
+         "href": "#page-3"
+      }
+   ]
+}

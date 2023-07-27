@@ -1,0 +1,22 @@
+@import '/styles/variables';
+
+.wrapper {
+   .block {
+      max-width: 70rem;
+      margin: 0 auto;
+      padding: 1rem;
+      p {
+         font-size: 1.2rem;
+         line-height: 1.3;
+      }
+      a {
+         color: $color-second;
+      }
+      @media (max-width: 715px) {
+         p,
+         a {
+            text-align: center;
+         }
+      }
+   }
+}

@@ -1,0 +1,49 @@
+@import '/styles/variables';
+
+.wrapper {
+   .block {
+      padding-top: 2rem;
+      @media (max-width: 715px) {
+         padding-top: 0;
+      }
+      h3 {
+         position: relative;
+         text-align: center;
+         color: #fff;
+         width: fit-content;
+         font-size: 1.2rem;
+         text-transform: uppercase;
+         padding: 0.5rem 0.5rem 0.4rem;
+         background-color: $color-first;
+         margin: 0 auto;
+         &:not(:first-child) {
+            margin-top: 8rem;
+         }
+         &::before,
+         &::after {
+            position: absolute;
+            top: 0;
+            height: 100%;
+            z-index: -1;
+         }
+
+         &::before {
+            left: -120px;
+            content: url(/assets/images/svg/label-decor.svg);
+            width: 184px;
+         }
+         &::after {
+            right: -110px;
+            content: url(/assets/images/svg/label-decor-right.svg);
+            width: 180px;
+         }
+      }
+      .image {
+         position: relative;
+         margin: 0 auto;
+         max-width: 90rem;
+         aspect-ratio: 1.67;
+         object-fit: cover;
+      }
+   }
+}

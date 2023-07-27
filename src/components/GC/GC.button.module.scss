@@ -1,0 +1,89 @@
+@import '/styles/variables';
+
+.wrapper {
+   box-sizing: border-box;
+   position: relative;
+   text-transform: uppercase;
+   border: 2px solid $color-second;
+   padding: 0.5rem 1rem 0.4rem;
+   font-size: 0.875rem;
+   font-family: $font-1-bold;
+   border-radius: 0.32rem;
+   cursor: pointer;
+   min-width: 7rem;
+   width: fit-content;
+   transition: background 0.3s, color 0.3s;
+   text-decoration: none;
+   display: block;
+   line-height: normal;
+   text-align: center;
+   white-space: nowrap;
+   .loader {
+      display: block;
+      margin: 0 auto;
+      height: 19px;
+      width: 19px;
+      background-image: url(/assets/images/svg/button-loader.svg);
+      background-size: cover;
+      background-repeat: no-repeat;
+   }
+   &[data-type='filled'][data-color='primary'] {
+      color: #fff;
+      background-color: $color-second;
+      &:hover {
+         background-color: #fff;
+         color: $color-second;
+      }
+      .loader {
+         background-image: url(/assets/images/svg/button-loader-blue.svg);
+      }
+   }
+   &[data-type='unfilled'][data-color='primary'] {
+      color: $color-second;
+      background-color: #fff;
+      &:hover {
+         background-color: $color-second;
+         color: #fff;
+      }
+      .loader {
+         background-image: url(/assets/images/svg/button-loader.svg);
+      }
+   }
+   &[data-type='filled'][data-color='secondary'] {
+      border-color: $color-third;
+      color: #fff;
+      background-color: $color-third;
+      &:hover {
+         background-color: #fff;
+         color: $color-third;
+      }
+      .loader {
+         background-image: url(/assets/images/svg/button-loader-red.svg);
+      }
+   }
+   &[data-type='unfilled'][data-color='secondary'] {
+      border-color: $color-third;
+      color: $color-third;
+      background-color: #fff;
+      &:hover {
+         background-color: $color-third;
+         color: #fff;
+      }
+      .loader {
+         background-image: url(/assets/images/svg/button-loader.svg);
+      }
+   }
+}
+
+.loading[data-type='filled'][data-color='primary'],
+.loading[data-type='filled'][data-color='secondary'] {
+   background-color: #fff;
+}
+
+.loading[data-type='unfilled'][data-color='primary'] {
+   background-color: $color-second;
+}
+
+.loading[data-type='unfilled'][data-color='secondary'] {
+   background-color: $color-third;
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_Слой_1" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #7f8000;
+      }
+    </style>
+  </defs>
+  <polygon points="20.02 60.02 39.98 60.02 39.98 11.47 30 -.02 20.02 11.47 20.02 60.02"/>
+  <path class="cls-1" d="m29.98,21.17l-6.27,4.2,6.17,3.93,6.37-3.93-6.27-4.2Zm-3.33,4.34l3.37-2.26,3.09,2.26-3.09,2.53-3.37-2.53Z"/>
+  <circle class="cls-1" cx="29.98" cy="6.14" r="2.25"/>
+  <rect class="cls-1" x="20.58" y="36.45" width="18.8" height="5.05"/>
+  <rect class="cls-1" x="20.58" y="29.99" width="18.8" height="5.05"/>
+  <rect class="cls-1" x="20.58" y="42.9" width="18.8" height="5.05"/>
+  <rect class="cls-1" x="20.58" y="49.36" width="18.8" height="5.05"/>
+</svg>
