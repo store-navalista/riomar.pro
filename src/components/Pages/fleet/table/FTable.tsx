@@ -31,7 +31,7 @@ const FTableBody: FC<{ rows: Vessel[] }> = ({ rows }) => {
             const { _id, IMO, vclass, foto, deadweight, pdf } = v
             return (
                <a
-                  href={`/assets/pdf/fleet/${pdf}.pdf`}
+                  // href={`/assets/pdf/fleet/${pdf}.pdf`}
                   download={staticTranslate(`fleet-${_id}`)}
                   key={i}
                   className={css.row}
@@ -44,7 +44,7 @@ const FTableBody: FC<{ rows: Vessel[] }> = ({ rows }) => {
                   </p>
                   <p>{vclass}</p>
                   <p>{deadweight}</p>
-                  <span className={css.download} />
+                  {/* <span className={css.download} /> */}
                </a>
             )
          })}
