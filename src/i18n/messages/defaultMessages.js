@@ -3,7 +3,7 @@ export default {
    'header-link.fleet': { defaultMessage: 'Fleet' },
    'header-link.career': { defaultMessage: 'Сareer' },
    'header-link.contacts': { defaultMessage: 'Contact us' },
-   'footer-address': { defaultMessage: '344019, Rostov-on-Don, Zakrutkina Street 67V/2B, Office 417' },
+   'footer-address': { defaultMessage: 'Suite 10, 3rd Floor, La Ciotat, Mont Fleuri, Mahe, Seychelles' },
    'footer-address.tip': { defaultMessage: 'Find us' },
    'footer-info': { defaultMessage: 'Riomar' },
    'footer-mail.tip': { defaultMessage: 'Send mail' },
@@ -48,6 +48,10 @@ export default {
    'errors-file.size': { defaultMessage: 'The file size must not exceed 5Mb' },
    'errors-file.ends': { defaultMessage: 'Incorrect file format. Only .pdf, .doc, .docx, .xlsx are accepted' },
    'fleet-title': { defaultMessage: 'Our Fleet' },
+   'fleet-tankers.cargo': { defaultMessage: 'Cargo tankers' },
+   'fleet-tankers.cargo-desc': {
+      defaultMessage: 'The fleet consists of 2 river-sea tankers. Vessels are intended for cargo transportation.'
+   },
    'fleet-tankers.oil': { defaultMessage: 'Oil tankers' },
    'fleet-tankers.oil-desc': {
       defaultMessage:
@@ -61,11 +65,12 @@ export default {
    'fleet-table.name': { defaultMessage: 'Vessel Name' },
    'fleet-table.class': { defaultMessage: 'Vessel Class' },
    'fleet-table.deadweight': { defaultMessage: 'Deadweight' },
-   'fleet-captain-shemilkin': { defaultMessage: 'Kapitan Shemilkin' },
-   'fleet-captain-pshenitsin': { defaultMessage: 'Kapitan Pshenitsin' },
-   'fleet-samara-city': { defaultMessage: 'Samara City' },
-   'fleet-astrakhan-city': { defaultMessage: 'Astrakhan City' },
-   'fleet-kazan-city': { defaultMessage: 'Kazan City' },
+   'fleet-rodion-oslyabya': { defaultMessage: 'Rodion Oslyabya' },
+   'fleet-dmitriy-donskoy': { defaultMessage: 'Dmitriy Donskoy' },
+   'fleet-dobrynya-nikitich': { defaultMessage: 'Dobrynya Nikitich' },
+   'fleet-ilya-muromets': { defaultMessage: 'Ilya Muromets' },
+   'fleet-muse': { defaultMessage: 'MUSE' },
+   'fleet-volgo-balt-242': { defaultMessage: 'Volgo Balt 242' },
    'career-vac-ship': { defaultMessage: 'Vacancies on ships' },
    'career-vac-coast': { defaultMessage: 'Vacancies on the coast' },
    'career-vac-resume': { defaultMessage: 'Send a CV ' },

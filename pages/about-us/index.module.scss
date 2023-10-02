@@ -11,6 +11,7 @@
       color: $color-first;
       .license {
          position: relative;
+         width: -moz-fit-content;
          width: fit-content;
          margin: 0 auto;
          padding: 2rem 1rem 1rem;
@@ -39,23 +40,6 @@
             }
          }
       }
-      .video {
-         width: clamp(6.25rem, 90%, 37.5rem);
-         height: calc(-5.65px + 605.65 * (100vw / 660));
-         margin: 4rem auto 6rem;
-         border-radius: 50%;
-         overflow: hidden;
-         border: 2px solid $color-second;
-         @media (min-width: 660px) {
-            height: 37.5rem;
-         }
-         @media (max-width: 660px) {
-            margin-bottom: 4rem;
-         }
-         video {
-            width: 100%;
-         }
-      }
       h3 {
          font-size: 1.2rem;
          font-family: $font-1-semi-bold;
@@ -73,7 +57,7 @@
       .textServ {
          display: flex;
          flex-direction: column;
-         margin-top: 40px;
+         margin: 40px 0;
          h3 {
             background-color: $color-first;
             color: #fff;
@@ -87,6 +71,10 @@
             font-size: 1.2rem;
             padding: 0 1rem;
          }
+      }
+      .image {
+         display: flex;
+         justify-content: center;
       }
    }
 }

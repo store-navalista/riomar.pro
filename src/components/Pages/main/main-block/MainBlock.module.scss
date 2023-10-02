@@ -16,9 +16,16 @@
       padding: 4px 10px;
       & > span {
          position: absolute;
-         right: 6px;
-         bottom: -30px;
+         right: 18px;
+         bottom: -10px;
          font-size: 24px;
+      }
+      & > h2 {
+         font-size: 2.2rem;
+         text-transform: uppercase;
+         color: #fff;
+         text-shadow: 3px 3px 5px#000;
+         text-align: center;
       }
       @media (max-width: $medium) {
          transform: translateX(-50%) scale(0.32);
@@ -64,31 +71,18 @@
    justify-content: space-between;
    color: $color-first;
    flex-wrap: wrap;
-   width: 1300px;
+   min-width: 950px;
+   max-width: 1000px;
    @media (max-width: $mobile) {
       padding: 0 10px;
    }
 }
-
-@media (max-width: $medium) {
-   .block {
-      &:nth-child(2) {
-         margin: -25px 125px 1px 1px;
-      }
-      &:nth-child(3) {
-         margin: 59px 1px 1px 91px;
-      }
-      &:nth-child(4) {
-         margin: 28px 0 1px 0px;
-      }
-   }
-}
 @media (max-width: $laptop) {
    .wrapper {
-      height: 993px;
+      height: 940px;
    }
    .box {
-      top: 20px;
+      top: 44px;
       transform: translate(-50%, 0);
       flex-direction: column;
       align-items: center;

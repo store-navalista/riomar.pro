@@ -5,15 +5,19 @@ import { IAboutProps } from '@/types/pages/about'
 import { AboutContent as content } from '@/i18n/pages/locales'
 import { useAppDispatch, useAppSelector } from '@/hooks/redux'
 import Loader from '@/components/UI/loader/Loader'
-import { SERVICES } from '@/constants/services'
 import { dynamicTranslate } from '@/i18n/pages/locales/helpers'
 import Modal from '@/components/UI/modals/Modal'
 import Image from 'next/image'
 import { ContentActions } from '@/store/reducers/contentReducer'
+import GC from '@/components/GC/GlobalComponent'
 
 import license from '@/img/pages/about-us/lic.jpg'
 import license_men from '@/img/pages/about-us/lic-min.jpg'
-import GC from '@/components/GC/GlobalComponent'
+import img_1 from '@/img/pages/about-us/images/img-1.jpg'
+import img_2 from '@/img/pages/about-us/images/img-2.jpg'
+import img_3 from '@/img/pages/about-us/images/img-3.jpg'
+import img_4 from '@/img/pages/about-us/images/img-4.jpg'
+const images = [img_1, img_2, img_3, img_4]
 
 const About: NextPage = ({ content }: IAboutProps) => {
    const lang = useAppSelector((state) => state.content.i18n)
@@ -32,7 +36,8 @@ const About: NextPage = ({ content }: IAboutProps) => {
    })
 
    if (isLoading) return <Loader />
-   const width = 500
+   const lic_width = 600
+   const img_width = 1200
 
    return (
       <div className={css.wrapper}>
@@ -40,7 +45,7 @@ const About: NextPage = ({ content }: IAboutProps) => {
             <GC.Heading>{dynamicTranslate('about-title')}</GC.Heading>
             <div className={css.textDesc}>{dynamicTranslate('about-description')}</div>
             <div className={css.license}>
-               <Image src={license_men} width={width} height={width * 1.43} alt='License' />
+               <Image src={license_men} width={lic_width * 1.43} height={lic_width} alt='License' />
                <button onClick={zoom} />
             </div>
             {services.map((service, i) => {
@@ -51,11 +56,8 @@ const About: NextPage = ({ content }: IAboutProps) => {
                         <h3>{title}</h3>
                         <p>{description}</p>
                      </div>
-                     <div className={css.video}>
-                        <video autoPlay loop>
-                           <source src={`/assets/images/pages/about-us/gifs/${SERVICES[i].video}`} type='video/mp4' />
-                           Your browser does not support the video tag.
-                        </video>
+                     <div className={css.image}>
+                        <Image src={images[i]} width={img_width * 1.43} height={img_width} alt='Service' />
                      </div>
                   </Fragment>
                )

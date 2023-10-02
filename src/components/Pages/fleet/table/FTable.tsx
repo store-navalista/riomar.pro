@@ -54,6 +54,7 @@ const FTableBody: FC<{ rows: Vessel[] }> = ({ rows }) => {
 
 const FTable: FC<{ vessels: Vessel[] }> = ({ vessels }) => {
    const isMobile = useAppSelector((state) => state.content.mediaQuery.isMobile)
+
    return (
       <div className={css.wrapper}>
          {!isMobile && <FTableHead />}

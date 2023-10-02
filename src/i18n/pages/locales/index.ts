@@ -4,6 +4,8 @@ import { default as About_EN } from './en-US/about.json'
 import { default as About_RU } from './ru-RU/about.json'
 import { default as Career_EN } from './en-US/career'
 import { default as Career_RU } from './ru-RU/career'
+import { default as SEO_EN } from './en-US/seo'
+import { default as SEO_RU } from './ru-RU/seo'
 
 export const MainContent = {
    en: Main_EN,
@@ -18,4 +20,8 @@ export const AboutContent = {
 export const CareerContent = {
    en: Career_EN,
    ru: Career_RU
+}
+export const SEO = {
+   en: SEO_EN,
+   ru: SEO_RU
 }

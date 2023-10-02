@@ -22,10 +22,10 @@ const ContactUs: FC = () => {
    const staticTranslate = (id: string) => intl.formatMessage({ id: id, defaultMessage: id })
    const defaultProps = {
       center: {
-         lat: 47.22683336022236,
-         lng: 39.747965461825586
+         lat: -4.634775898100546,
+         lng: 55.45544896066628
       },
-      zoom: 11
+      zoom: 12
    }
    const initData = {
       name: '',

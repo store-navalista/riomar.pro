@@ -2,7 +2,7 @@ export interface ITabsProps {
    _id: 'vac-ship' | 'vac-coast' | 'vac-resume'
 }
 
-type Vessels = 'volgoneft-630' | 'volgoneft-111'
+type Vessels = 'volgoneft-242' | 'rodion oslyabya' | 'dmitriy donskoy' | 'dobrynya nikitich' | 'ilya muromets' | 'muse'
 
 export type Vacancy =
    | 'master'
@@ -25,23 +25,24 @@ export type Vacancy =
 
 export type IJob = { [key in Vessels]?: Vacancy[] }
 
-export const TabsProps: ITabsProps[] = [{ _id: 'vac-ship' }, { _id: 'vac-coast' }, { _id: 'vac-resume' }]
+// export const TabsProps: ITabsProps[] = [{ _id: 'vac-ship' }, { _id: 'vac-coast' }, { _id: 'vac-resume' }]
+export const TabsProps: ITabsProps[] = [{ _id: 'vac-ship' }, { _id: 'vac-resume' }]
 
 export const Jobs: IJob[] = [
-   {
-      'volgoneft-630': [
-         'master',
-         'chief-officer',
-         'second-officer',
-         'chief-engineer',
-         'second-engineer',
-         'third-engineer',
-         'el-officer',
-         'pumpman',
-         'motorman',
-         'able-seaman',
-         'ordinary-seaman',
-         'cook'
-      ]
-   }
+   // {
+   //    'volgoneft-242': [
+   //       'master',
+   //       'chief-officer',
+   //       'second-officer',
+   //       'chief-engineer',
+   //       'second-engineer',
+   //       'third-engineer',
+   //       'el-officer',
+   //       'pumpman',
+   //       'motorman',
+   //       'able-seaman',
+   //       'ordinary-seaman',
+   //       'cook'
+   //    ]
+   // }
 ]

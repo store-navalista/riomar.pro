@@ -17,6 +17,10 @@
             gap: 4rem;
             align-items: center;
          }
+         .mails {
+            display: flex;
+            flex-direction: column;
+         }
          .block {
             position: relative;
             display: grid;

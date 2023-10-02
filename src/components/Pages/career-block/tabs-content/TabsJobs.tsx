@@ -12,7 +12,7 @@ const TabsJobs: FC = () => {
 
    return (
       <div className={css.wrapper}>
-         <div className={css.block}>
+         {/* <div className={css.block}>
             <h2>{dynamicTranslate('career-vac.find')}</h2>
             {Jobs.map((j, i) => {
                const [vessel] = Object.keys(j)
@@ -23,7 +23,7 @@ const TabsJobs: FC = () => {
                   <div key={i} className={css.vessel}>
                      <h4>{dynamicTranslate(`career-vessel.${vessel}`)}</h4>
                      <ul>
-                        {currentVacs.map((_) => {
+                        {currentVacs.map((_, i) => {
                            const { title, description, _id } = _
                            return (
                               <>
@@ -50,7 +50,7 @@ const TabsJobs: FC = () => {
                   </div>
                )
             })}
-         </div>
+         </div> */}
       </div>
    )
 }

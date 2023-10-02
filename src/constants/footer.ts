@@ -13,12 +13,12 @@ export const FOOTER: IFOOTER[] = [
    {
       phone: {
          icon: 'phone.svg',
-         number: '+7(863)294-38-88'
+         number: '+44 7308 849885'
       }
    },
    {
       mail: {
-         url: 'riomar@gmail.com',
+         url: 'mi@riomar.pro ',
          icon: 'mail.svg'
       }
    }

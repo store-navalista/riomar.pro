@@ -32,7 +32,15 @@ const Contacts: NextPage = () => {
                   <a href={`tel:${tel.replace(/(?!^\+)\D/g, '')}`}>{tel}</a>
                   <h4>{dynamicTranslate('contacts-page.mail')}:</h4>
                   <span className={css.mail} />
-                  <a href={`mailto:${mail}`}>{mail}</a>
+                  <div className={css.mails}>
+                     {mail.map((m, i) => {
+                        return (
+                           <a key={i} href={`mailto:${m}`}>
+                              {m}
+                           </a>
+                        )
+                     })}
+                  </div>
                </div>
                <div className={css.block}>
                   {tel_sd && (

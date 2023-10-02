@@ -1,0 +1,30 @@
+{
+   "title": "Riomar",
+   "services": [
+      {
+         "title": "Technical Management",
+         "description": "Technical management on a fleet of ships involves overseeing the maintenance, repairs, and overall operational integrity of vessels. It includes scheduled and unscheduled surveys, compliance with regulatory standards, efficient handling of repairs, and implementation of new technologies. Strong coordination, skilled expertise, and proactive planning are essential to minimize downtime and costs.",
+         "href": "#page-0"
+      },
+      {
+         "title": "Crewing Management",
+         "description": "Crewing management involves the recruitment, training, deployment, and well-being of the crew aboard a ship. It requires meticulous planning to ensure that the right personnel with the required skills are placed on appropriate vessels, compliance with international labor and maritime laws, continuous training and development, and attention to the physical and mental well-being of the crew.",
+         "href": "#page-1"
+      },
+      {
+         "title": "Ship Repair & Dry Docking",
+         "description": "Ship repair and dry docking are vital for maintaining a vessel's integrity and operational efficiency. This process involves inspecting, maintaining, and repairing various components, including the hull, engine, and equipment. Dry docking specifically requires taking the ship out of the water for thorough examination and major repairs, often adhering to strict regulatory and environmental guidelines. It's a complex task requiring skilled labor, precise planning, and coordination with various stakeholders to minimize downtime and costs.",
+         "href": "#page-2"
+      },
+      {
+         "title": "Procurement & Logistics",
+         "description": "Procurement and logistics on a ship fleet encompass strategic sourcing, inventory management, supply chain coordination, logistical planning, compliance, risk management, environmental considerations, tech integration, vendor relationship management, cost optimization, and emergency response, supporting efficient operations, cost-effectiveness, and regulatory compliance.",
+         "href": "#page-3"
+      },
+      {
+         "title": "Finance & Accounting",
+         "description": "Finance and accounting in ship fleet management encompass budgeting, cost control, cash flow, compliance, investment and risk management, debt handling, audits, crew payroll, sustainability financing, insurance, and strategic business decisions, ensuring stability, compliance, profitability, and growth.",
+         "href": "#page-4"
+      }
+   ]
+}

@@ -20,7 +20,8 @@
       padding-top: 1rem;
       padding-bottom: 0.8rem;
       background-color: rgba(206, 206, 206, 0.2);
-      box-shadow: 0 0 1rem 0px rgba(206, 206, 206, 0.4);
+      background-color: #fff;
+      box-shadow: 0 0 1rem 0px rgb(144 209 255 / 40%);
    }
    section {
       width: 100%;
@@ -64,6 +65,7 @@
                width: 3.75rem;
                height: 3.75rem;
                background-size: contain;
+               background-position: center;
                background-repeat: no-repeat;
             }
             p {

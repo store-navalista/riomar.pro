@@ -6,7 +6,7 @@ export default {
       'header-link.fleet': 'Fleet',
       'header-link.career': 'Сareer',
       'header-link.contacts': 'Contact us',
-      'footer-address': '344019, Rostov-on-Don, Zakrutkina Street 67V/2B, Office 417',
+      'footer-address': 'Suite 10, 3rd Floor, La Ciotat, Mont Fleuri, Mahe, Seychelles',
       'footer-address.tip': 'Find us',
       'footer-info': 'We Riomar',
       'footer-mail.tip': 'Send mail',
@@ -15,7 +15,7 @@ export default {
       'btn-explore': 'Explore',
       'main-title': 'Riomar',
       'main-description':
-         'The shipping company Riomar owns its own tanker fleet and carries out transportation mainly in the Caspian, Azov, Black, Marmara Seas and inland shipping. Company specializes in the transportation of crude oil and various bulk cargoes.',
+         'The shipping company RIOMAR owns its own dry cargo fleet and carries out transportation mainly in the Azov, Black, Marmara and Mediterranean Seas and inland shipping. Company specializes in the transportation of coal and various grain cargoes.',
       'main-description.button': 'About us',
       'main-description.title': 'A little about us',
       'main-services.title': 'Our services',
@@ -49,6 +49,7 @@ export default {
       'errors-file.size': 'The file size must not exceed 5Mb',
       'errors-file.ends': 'Incorrect file format. Only .pdf, .doc, .docx, .xlsx are accepted',
       'fleet-title': 'Our Fleet',
+      'fleet-tankers.cargo': 'Cargo tankers',
       'fleet-tankers.oil': 'Oil tankers',
       'fleet-tankers.oil-desc':
          'The fleet consists of 2 river-sea tankers. Vessels are intended for transportation of crude oil, oil products.',
@@ -58,11 +59,12 @@ export default {
       'fleet-table.name': 'Vessel Name',
       'fleet-table.class': 'Vessel Class',
       'fleet-table.deadweight': 'Deadweight',
-      'fleet-captain-shemilkin': 'Kapitan Shemilkin',
-      'fleet-captain-pshenitsin': 'Kapitan Pshenitsin',
-      'fleet-samara-city': 'Samara City',
-      'fleet-astrakhan-city': 'Astrakhan City',
-      'fleet-kazan-city': 'Kazan City',
+      'fleet-rodion-oslyabya': 'Rodion Oslyabya',
+      'fleet-dmitriy-donskoy': 'Dmitriy Donskoy',
+      'fleet-dobrynya-nikitich': 'Dobrynya Nikitich',
+      'fleet-ilya-muromets': 'Ilya Muromets',
+      'fleet-muse': 'Muse',
+      'fleet-volgo-balt-242': 'Volgo Balt 242',
       'career-vac-ship': 'Vacancies on ships',
       'career-vac-coast': 'Ashore vacancies',
       'career-vac-resume': 'Send a CV',
@@ -86,6 +88,6 @@ export default {
       'career-resume.field-mail.ph': 'user@gmail.com',
       'about-title': 'We Riomar',
       'about-description':
-         'Riomar is a shipping company based in Rostov-on-Don, operating its own fleet of tankers and product tankers of the river-sea class. The company operates in accordance with all norms and rules for cargo transportation on inland waterways, the Code of Inland Water Transport of the Russian Federation, the Classification Society, and international maritime conventions. Our fleet transports a wide range of bulk cargo: petroleum products, sunflower oil, molasses, gasoline, and other chemical cargoes transported in bulk. All vessels fly under the Russian flag and are classified by the Russian Maritime Register of Shipping (RMRS). The company has a valid license from the UGMRN Rostotransnadzor, which issued a license for the transportation of oil and petroleum products No. 002849 of February 27, 2018, in accordance with the Federal Law "On Licensing Certain Types of Activities" No. 99-FZ of May 4, 2011, and regulatory acts that set specific requirements for this industry.'
+         'RIOMAR is a shipping company that operates its own fleet of dry cargo vessels of the river-sea class. The company operates in accordance with all the norms and regulations for the transportation of goods on both internal and external waterways, Classification Society, and international maritime conventions. Our fleet transports a wide range of dry cargo, including coal, grain, corn, and more. All vessels are registered under the flags of Tanzania or Cameroon. The company holds a valid license.'
    }
 }
