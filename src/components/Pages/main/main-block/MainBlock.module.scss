@@ -90,17 +90,6 @@
    }
 }
 
-@media (max-width: $mobile) {
-   .wrapper {
-      height: auto;
-   }
-   .box {
-      position: static;
-      transform: translate(0, 0);
-      padding-top: 20px;
-   }
-}
-
 //fix max resolution
 @media (min-width: 2560px) {
    .wrapper {

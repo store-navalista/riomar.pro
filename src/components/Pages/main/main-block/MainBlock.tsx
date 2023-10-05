@@ -19,7 +19,7 @@ const MainBlock: FC<IMainProps> = ({ content }) => {
 
    useEffect(() => {
       const imageInterval = setInterval(() => {
-         setCurrentImage((prevImage) => (prevImage + 1) % 5)
+         setCurrentImage((prevImage) => (prevImage + 1) % 4)
       }, 5000)
 
       return () => {
