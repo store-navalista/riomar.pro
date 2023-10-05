@@ -15,7 +15,7 @@ const Tab: FC<{ tab: number }> = ({ tab }) => {
    switch (tab) {
       case 0:
          return <TabsJobs />
-      case 2:
+      case 1:
          return <TabsResume />
       default:
          return

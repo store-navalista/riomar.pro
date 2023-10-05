@@ -18,9 +18,9 @@ const Content: FC<{ tab: number }> = ({ tab }) => {
             </p>
          )
       }
-      case 1: {
-         return <p>{dynamicTranslate('career-vac.title-coast')}</p>
-      }
+      // case 1: {
+      //    return <p>{dynamicTranslate('career-vac.title-coast')}</p>
+      // }
       default:
          return <></>
    }
