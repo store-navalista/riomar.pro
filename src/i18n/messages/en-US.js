@@ -49,7 +49,7 @@ export default {
       'errors-file.size': 'The file size must not exceed 5Mb',
       'errors-file.ends': 'Incorrect file format. Only .pdf, .doc, .docx, .xlsx are accepted',
       'fleet-title': 'Our Fleet',
-      'fleet-tankers.cargo': 'Cargo tankers',
+      'fleet-tankers.cargo': 'Dry Cargo Ships',
       'fleet-tankers.oil': 'Oil tankers',
       'fleet-tankers.oil-desc':
          'The fleet consists of 2 river-sea tankers. Vessels are intended for transportation of crude oil, oil products.',
@@ -72,7 +72,7 @@ export default {
          'We invite officers and ratings to work on our vessels. We offer formal employment, decent wages, career opportunities. To consider employment, you must fill out a ',
       'career-vac.title-coast':
          'We invite you to work in our friendly team for the position of Marine Superintendent and Tech Superintendent. Mandatory work experience as a Master, Chief Officer or Chief Engineer, Second Engineer; experience in PSC, FSC; readiness for business trips.',
-      'career-resume.link': 'SV.',
+      'career-resume.link': 'CV.',
       'career-vac.find': 'The following vacancies for a tanker are opening in a shipping company',
       'career-vessel.volgoneft-630': 'Volgoneft-630 project:',
       'career-resume.file': 'Choose file',
@@ -88,6 +88,6 @@ export default {
       'career-resume.field-mail.ph': 'user@gmail.com',
       'about-title': 'We Riomar',
       'about-description':
-         'RIOMAR is a shipping company that operates its own fleet of dry cargo vessels of the river-sea class. The company operates in accordance with all the norms and regulations for the transportation of goods on both internal and external waterways, Classification Society, and international maritime conventions. Our fleet transports a wide range of dry cargo, including coal, grain, corn, and more. All vessels are registered under the flags of Tanzania or Cameroon. The company holds a valid license.'
+         'RIOMAR is a shipping company that operates its own fleet of dry cargo vessels of the river-sea class. The company operates in accordance with all the rules, norms and regulations of the International Maritime Conventions and Classification Societies - for the transportation of goods on both sea and inland waterways. Our fleet transports a wide range of dry cargo, including grain, coal, corn, and more.'
    }
 }

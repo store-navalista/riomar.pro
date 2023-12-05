@@ -48,7 +48,7 @@ export default {
    'errors-file.size': { defaultMessage: 'The file size must not exceed 5Mb' },
    'errors-file.ends': { defaultMessage: 'Incorrect file format. Only .pdf, .doc, .docx, .xlsx are accepted' },
    'fleet-title': { defaultMessage: 'Our Fleet' },
-   'fleet-tankers.cargo': { defaultMessage: 'Cargo tankers' },
+   'fleet-tankers.cargo': { defaultMessage: 'Dry Cargo Ships' },
    'fleet-tankers.cargo-desc': {
       defaultMessage: 'The fleet consists of 2 river-sea tankers. Vessels are intended for cargo transportation.'
    },
@@ -100,6 +100,6 @@ export default {
    'about-title': { defaultMessage: 'We Riomar' },
    'about-description': {
       defaultMessage:
-         'Riomar is a shipping company based in Rostov-on-Don, operating its own fleet of tankers and product tankers of the river-sea class. The company operates in accordance with all norms and rules for cargo transportation on inland waterways, the Code of Inland Water Transport of the Russian Federation, the Classification Society, and international maritime conventions. Our fleet transports a wide range of bulk cargo: petroleum products, sunflower oil, molasses, gasoline, and other chemical cargoes transported in bulk. All vessels fly under the Russian flag and are classified by the Russian Maritime Register of Shipping (RMRS). The company has a valid license from the UGMRN Rostotransnadzor, which issued a license for the transportation of oil and petroleum products No. 002849 of February 27, 2018, in accordance with the Federal Law "On Licensing Certain Types of Activities" No. 99-FZ of May 4, 2011, and regulatory acts that set specific requirements for this industry.'
+         'RIOMAR is a shipping company that operates its own fleet of dry cargo vessels of the river-sea class. The company operates in accordance with all the rules, norms and regulations of the International Maritime Conventions and Classification Societies - for the transportation of goods on both sea and inland waterways. Our fleet transports a wide range of dry cargo, including grain, coal, corn, and more.'
    }
 }

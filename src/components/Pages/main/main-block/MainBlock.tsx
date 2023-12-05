@@ -33,7 +33,7 @@ const MainBlock: FC<IMainProps> = ({ content }) => {
             <div className={css.heading}>
                <HeadingMain title={title} />
                {/* <span>&#129045; HOVER</span> */}
-               <h2>Mangers Fleet Corporations</h2>
+               <h2>Fleet Managers Corporations</h2>
             </div>
          )}
          <div className={css.background}>
