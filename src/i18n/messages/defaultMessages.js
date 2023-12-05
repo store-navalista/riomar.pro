@@ -97,7 +97,7 @@ export default {
    'career-resume.field-phone.ph': { defaultMessage: '+7 863 777-77-77' },
    'career-resume.field-mail': { defaultMessage: 'E-Mail' },
    'career-resume.field-mail.ph': { defaultMessage: 'user@gmail.com' },
-   'about-title': { defaultMessage: 'We Riomar' },
+   'about-title': { defaultMessage: 'About RIOMAR' },
    'about-description': {
       defaultMessage:
          'RIOMAR is a shipping company that operates its own fleet of dry cargo vessels of the river-sea class. The company operates in accordance with all the rules, norms and regulations of the International Maritime Conventions and Classification Societies - for the transportation of goods on both sea and inland waterways. Our fleet transports a wide range of dry cargo, including grain, coal, corn, and more.'

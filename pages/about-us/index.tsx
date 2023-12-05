@@ -1,22 +1,22 @@
-import React, { Fragment, useEffect, useState } from 'react'
-import { GetStaticProps, NextPage } from 'next'
-import css from './index.module.scss'
-import { IAboutProps } from '@/types/pages/about'
-import { AboutContent as content } from '@/i18n/pages/locales'
-import { useAppDispatch, useAppSelector } from '@/hooks/redux'
-import Loader from '@/components/UI/loader/Loader'
-import { dynamicTranslate } from '@/i18n/pages/locales/helpers'
-import Modal from '@/components/UI/modals/Modal'
-import Image from 'next/image'
-import { ContentActions } from '@/store/reducers/contentReducer'
 import GC from '@/components/GC/GlobalComponent'
+import Loader from '@/components/UI/loader/Loader'
+import Modal from '@/components/UI/modals/Modal'
+import { useAppDispatch, useAppSelector } from '@/hooks/redux'
+import { AboutContent as content } from '@/i18n/pages/locales'
+import { dynamicTranslate } from '@/i18n/pages/locales/helpers'
+import { ContentActions } from '@/store/reducers/contentReducer'
+import { IAboutProps } from '@/types/pages/about'
+import { GetStaticProps, NextPage } from 'next'
+import Image from 'next/image'
+import React, { Fragment, useEffect, useState } from 'react'
+import css from './index.module.scss'
 
-import license from '@/img/pages/about-us/lic.jpg'
-import license_men from '@/img/pages/about-us/lic-min.jpg'
 import img_1 from '@/img/pages/about-us/images/img-1.jpg'
 import img_2 from '@/img/pages/about-us/images/img-2.jpg'
 import img_3 from '@/img/pages/about-us/images/img-3.jpg'
 import img_4 from '@/img/pages/about-us/images/img-4.jpg'
+import license_men from '@/img/pages/about-us/lic-min.jpg'
+import license from '@/img/pages/about-us/lic.jpg'
 const images = [img_1, img_2, img_3, img_4]
 
 const About: NextPage = ({ content }: IAboutProps) => {
@@ -42,7 +42,7 @@ const About: NextPage = ({ content }: IAboutProps) => {
    return (
       <div className={css.wrapper}>
          <div className={css.info}>
-            <GC.Heading>{dynamicTranslate('about-title')}</GC.Heading>
+            <GC.Heading style={{ textTransform: 'none' }}>{dynamicTranslate('about-title')}</GC.Heading>
             <div className={css.textDesc}>{dynamicTranslate('about-description')}</div>
             <div className={css.license}>
                <Image src={license_men} width={lic_width * 1.43} height={lic_width} alt='License' />

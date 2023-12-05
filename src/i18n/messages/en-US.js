@@ -8,7 +8,7 @@ export default {
       'header-link.contacts': 'Contact us',
       'footer-address': 'Suite 10, 3rd Floor, La Ciotat, Mont Fleuri, Mahe, Seychelles',
       'footer-address.tip': 'Find us',
-      'footer-info': 'We Riomar',
+      'footer-info': 'About RIOMAR',
       'footer-mail.tip': 'Send mail',
       'footer-copyright': 'Riomar. All rights reserved',
       'footer-phone.tip': 'Contact us',
@@ -86,7 +86,7 @@ export default {
       'career-resume.field-phone.ph': '+7 863 777-77-77',
       'career-resume.field-mail': 'E-Mail',
       'career-resume.field-mail.ph': 'user@gmail.com',
-      'about-title': 'We Riomar',
+      'about-title': 'About RIOMAR',
       'about-description':
          'RIOMAR is a shipping company that operates its own fleet of dry cargo vessels of the river-sea class. The company operates in accordance with all the rules, norms and regulations of the International Maritime Conventions and Classification Societies - for the transportation of goods on both sea and inland waterways. Our fleet transports a wide range of dry cargo, including grain, coal, corn, and more.'
    }

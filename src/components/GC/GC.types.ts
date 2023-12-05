@@ -3,7 +3,7 @@ import { AnchorHTMLAttributes, ButtonHTMLAttributes, LabelHTMLAttributes, ReactN
 export type gcHeadingProps = {
    children: ReactNode
    isDecor?: boolean
-}
+} & React.DetailedHTMLProps<React.HTMLAttributes<HTMLHeadingElement>, HTMLHeadingElement>
 
 export type gcButtonProps = ButtonHTMLAttributes<HTMLButtonElement> &
    AnchorHTMLAttributes<HTMLAnchorElement> &
